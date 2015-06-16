@@ -1,0 +1,180 @@
+/* Reused Elements */
+/* Spoiler text. */
+a[href="/spoiler"],a[href="#spoiler"]{
+	background:#000 !important;
+	color:#000 !important;
+	text-decoration: none !important;
+	transition: ease color 1s;
+}
+
+a[href="/spoiler"]:hover,a[href="#spoiler"]:hover{
+	color:#FFF !important;
+	transition: ease color 1s;
+}
+
+/* Announcement top bar. */
+#container .content:nth-child(3) {
+	position: relative;
+	top: 53px;
+}
+
+.side h2:nth-of-type(1){
+	position:absolute;
+	display:block;
+	top:0px;
+	left:5px;
+	color: #f3cdd7;
+	text-align:left;
+	margin:15px;
+	right:313px;
+	padding:8px 0 8px 40px;
+	background:#53a0d7;
+	border-radius: 8px !important;
+}
+
+/* Subcriber text. */
+div.titlebox .subscribers span.number:after{
+	content:" moeblobs"
+}
+
+div.titlebox .users-online span.number:after{
+	content:" moeblobs online"
+}
+
+.subscribers .word{
+	display:none
+}
+
+.users-online .word{
+	display:none
+}
+
+/*--Standard TwoDee CSS--*/
+@import url('//brick.a.ssl.fastly.net/Muli:400,700,400i,700i');
+body, .alert-h1 {
+    font-family: Muli, sans-serif;
+}
+#header {
+    background: #fff url('https://i.imgur.com/l0egwot.png') left top repeat-x;
+    height: 200px;
+    background-size: cover;
+}
+#sr-header-area {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0));
+    border-bottom: 0;
+}
+#sr-bar li a, .sr-list li a, #sr-header-area:hover #sr-bar li a {
+    color: #fff;
+    text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+#sr-header-area #sr-bar .selected a, #sr-header-area:hover #sr-bar .selected a {
+    text-shadow: none;
+    color: #666;
+    background: #fff;
+    padding: 0px 3px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+.sr-list .drop-arrow {
+    border-top-color: #fff;
+}
+#header-container {
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.6));
+    border-top: 0;
+    color: #fff;
+}
+#header-img {
+    display: none;
+}
+#header-img-a:after {
+    width: 112px;
+    height: 31px;
+    display: inline-block;
+    background: transparent url('https://i.imgur.com/FecWaLn.png');
+    content: '';
+    margin: 7px 12px 10px;
+}
+.pagename a {
+    /*background: transparent url('https://i.imgur.com/te6RU67.png') left top no-repeat;
+    background-size: 153px 31px;
+    width: 160px;
+    color: transparent;*/
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+.pagename a:hover {
+    /*color: transparent;*/
+    color: #fff;
+}
+
+/*@media (max-width:950px) {
+#header {
+    background-size: 3333px 200px;
+    height: 260px;
+}
+}*/
+@media (max-width:750px) {
+#header {
+    height: 100px;
+}
+}
+
+.logged-in, .logged-out {
+    color: #fff;
+    text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+    background: transparent;
+    border: 0;
+}
+
+#header-account a, #header-account span.separator {
+    color: #fff;
+}
+#header-account a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.user .upvoatsGiven a {
+    text-shadow: 0px 0px 5px #fff;
+}
+.tabmenu li.disabled a, .tabmenu li.selected a {
+    border: 0;
+}
+.tabmenu li.disabled a {
+    color: #fff;
+    text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+    border-radius: 0;
+}
+.tabmenu li.disabled a:hover {
+    color: #666;
+    background: #fff;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+    text-shadow: none;
+    border: 0;
+    border-radius: 2px;
+}
+.tabmenu li.selected a, .tabmenu li.selected a.contribute {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+    color: #666;
+    font-weight: bold;
+    border: 0;
+}
+@media (max-width:700px) {
+.tabmenu li.disabled a {
+    background: transparent;
+    box-shadow: none;
+}
+}
+.tabmenu li.disabled a.contribute, .tabmenu li.disabled a.contribute:hover {
+    background: #91d5ff;
+    color: #000;
+    text-shadow: none;
+    border: 0;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+    border-radius: 2px;
+}
+.tabmenu li.disabled a.contribute:hover {
+    background: #bbe5ff
+}
